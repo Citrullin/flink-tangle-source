@@ -32,7 +32,7 @@ libraryDependencies += "org.iota" %% "tangle-stream-provider" % "0.0.1"
 
 ### 3. Use it
 
-**_Note:_** (This repository)[https://github.com/Citrullin/flink-tangle-examples] contains a few examples.
+**_Note:_** [This repository](https://github.com/Citrullin/flink-tangle-examples) contains a few examples.
 
 You can also filter with the topic parameter, if you are not interested in all ZMQ topics.
 
