@@ -8,6 +8,7 @@ This library contains some helpful resources to use the tangle streaming data as
 ## Usage
 
 ### 1. Publish the library to your local repository
+
 Since this library is not available in a maven repository at the moment, you need to publish it locally.
 
 ```bash
