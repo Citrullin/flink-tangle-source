@@ -39,5 +39,5 @@ You can also filter with the topic parameter, if you are not interested in all Z
 
 ```scala
     val env: StreamExecutionEnvironment = StreamExecutionEnvironment.getExecutionEnvironment
-    val stream = env.addSource(new TagleSource(zeroMQHost, zeroMQPort, ""))
+    val stream = env.addSource(new TangleSource(zeroMQHost, zeroMQPort, ""))
 ```

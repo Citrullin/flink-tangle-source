@@ -10,7 +10,7 @@ import scalapb.GeneratedMessage
 
 import scala.annotation.tailrec
 
-class TagleSource(host: String, port: Int, topic: String) extends RichSourceFunction[GeneratedMessage] with StoppableFunction{
+class TangleSource(host: String, port: Int, topic: String) extends RichSourceFunction[GeneratedMessage] with StoppableFunction{
   private var subscriber: Socket = _
   private var context: ZMQ.Context = _
   private var parser: ZeroMQMessageParser = _
